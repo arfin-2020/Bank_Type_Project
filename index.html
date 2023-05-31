@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Islami Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1 class="text-6xl font-semibold text-center mt-6 font-sans">Wellcome to <span
+                class="text-blue-600 underline decoration-red-500">ISLAMI BANK</span> !!</h1>
+    </header>
+    <blockquote class="text-2xl font-semibold italic text-center text-slate-900">
+        When you look
+        <span
+            class="mt-5 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block">
+            <span class="relative text-white">ISLAMI BANK</span>
+        </span>
+        all the time, people think that you're busy.
+    </blockquote>
+    <main>
+        <section class="bg-orange-100 mt-12 w-9/12 mx-auto p-8 rounded">
+            <h3 class="text-4xl text-center mb-5">Please Login</h3>
+            <div>
+                <span
+                    class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+                    Email
+                </span>
+                <input required type="email" name="email" id="user-email"
+                    class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-blue-500 focus:ring-blue-500 block w-9/12 rounded-md sm:text-sm focus:ring-1"
+                    placeholder="you@example.com" />
+                <span
+                    class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+                    Password
+                </span>
+                <input required type="password" name="password" id="user-password"
+                    class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-blue-500 focus:ring-blue-500 block w-9/12 rounded-md sm:text-sm focus:ring-1"
+                    placeholder="@password " />
+
+                <button id="btn-submit" class="bg-amber-700 hover:bg-sky-700 text-white py-2 px-5 rounded font-semibold mt-5">Submit</button>
+            
+            </div>
+            
+        </section>
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>

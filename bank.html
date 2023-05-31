@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inside Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+   
+
+</head>
+
+<body>
+    <header>
+        <h1 class="text-6xl font-semibold text-center mt-6 font-sans">এখন আপনি ব্যাংক এর ভেতরে <span
+                class="text-blue-600 underline decoration-red-500">ISLAMI BANK</span> !!</h1>
+    </header>
+    <blockquote class="text-2xl font-semibold italic text-center text-slate-900">
+        When you look
+        <span
+            class="mt-5 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block">
+            <span class="relative text-white">ISLAMI BANK</span>
+        </span>
+        all the time, people think that you're busy.
+    </blockquote>
+    <main>
+        <section class="mt-12">
+            <header>
+                <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto ">
+                    <div
+                        class="bg-green-600 rounded-full p-5 h-24 text-center text-white font-semibold text-2xl font-mono">
+                        <h4>Deposit</h4>
+                        <h4>$<span id="depositTotal">100.00</span> </h4>
+                    </div>
+                    <div
+                        class="bg-red-500 rounded-full p-5 h-24 text-center text-white font-semibold text-2xl font-mono">
+                        <h4>Withdraw</h4>
+                        <h4>$<span id="withdrawTotal">00.00</span></h4>
+                    </div>
+                    <div
+                        class="bg-orange-400 rounded-full p-5 h-24 text-center text-white font-semibold text-2xl font-mono">
+                        <h4>Balance</h4>
+                        <h4>$<span id="totalBalance">500.00</span></h4>
+                    </div>
+                </div>
+            </header>
+        </section>
+        <section class="bg-amber-100 h-80">
+            <h1 class="text-6xl font-semibold text-center mt-6 font-sans m-8">Let's Get Some M000000000000oney!!!!!!!
+            </h1>
+
+            <div class="grid grid-cols-2 gap-4 w-9/12 mx-auto mt-12">
+                <div class="bg-violet-400 rounded p-5 h-50 text-center text-white font-semibold text-2xl font-mono">
+                    <h2>Please Deposit</h2>
+                    <input type="text" id="deposite-field"
+                        class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-blue-500 focus:ring-blue-500 block w-9/12 rounded-md sm:text-sm focus:ring-1 text-black"
+                        placeholder="$ Enter deposit amount " />
+                    <button id="btn-deposite"
+                        class="float-left bg-indigo-700 hover:bg-sky-700 text-white py-2 px-5 rounded font-semibold mt-5">Deposite</button>
+                </div>
+                <div
+                    class="bg-indigo-400 rounded p-5 h-50 text-center        text-white font-semibold text-2xl font-mono">
+                    <h2>Please Withdraw</h2>
+                    <input type="text" id="withdraw-field"
+                        class="text-black mt-1 px-3 py-2  border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-blue-500 focus:ring-blue-500 block w-9/12 rounded-md sm:text-sm focus:ring-1"
+                        placeholder="$ Enter  withdraw amount" />
+                    <button id="btn-withdraw"
+                        class="float-left bg-violet-700 hover:bg-sky-700 text-white py-2 px-5 rounded font-semibold mt-5">Withdraw</button>
+                </div>
+            </div>
+        </section>
+    </main>
+        <script src="./utilities.js"></script>
+        <script src="./deposite.js"></script>
+       
+</body>
+
+
+</html>
